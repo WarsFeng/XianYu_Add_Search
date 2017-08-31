@@ -5,6 +5,7 @@
 // @description  try to take over the world!
 // @author       Wars
 // @match        https://2.taobao.com/*
+// @match        https://s.2.taobao.com/*
 // @grant        none
 // ==/UserScript==
 

@@ -6,6 +6,7 @@
 // @author       Wars
 // @match        https://2.taobao.com/*
 // @match        https://s.2.taobao.com/*
+// @match        https://trade.2.taobao.com/*
 // @grant        none
 // ==/UserScript==
 
@@ -22,4 +23,6 @@
     //左下角闲鱼下载
     // var download = document.getElementsByClassName("download-layer");
     // download[0].parentNode.innerHTML="";
+    //去除主页右侧反馈按钮 恢复添加旺旺应用
+    document.getElementsByClassName("advice")[0].parentNode.innerHTML="<li class=\"top\" id=\"J_GoTop\"><a href=\"#\">TOP</a></li>";
 })();

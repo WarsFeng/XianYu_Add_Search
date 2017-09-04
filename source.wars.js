@@ -20,9 +20,4 @@
     //去除商品第一张图片广告
     var guide_img = document.getElementsByClassName("guide-img");
     guide_img[0].parentNode.innerHTML="";
-    //左下角闲鱼下载
-    // var download = document.getElementsByClassName("download-layer");
-    // download[0].parentNode.innerHTML="";
-    //去除主页右侧反馈按钮 恢复添加旺旺应用
-    document.getElementsByClassName("advice")[0].parentNode.innerHTML="<li class=\"top\" id=\"J_GoTop\"><a href=\"#\">TOP</a></li>";
 })();

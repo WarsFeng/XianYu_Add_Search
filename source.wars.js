@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         闲鱼搜索框显示
 // @namespace    http://tampermonkey.net/
-// @version      0.7
+// @version      1.0
 // @description  try to take over the world!
 // @author       Wars
 // @match        https://2.taobao.com/*
